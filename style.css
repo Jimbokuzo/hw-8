@@ -1,0 +1,25 @@
+body{
+    background: rgb(128, 172, 223);
+}
+.userCard{
+    background: rgb(243, 233, 188);
+    margin: auto;
+    width: 380px;
+    height: 425px;
+    border-radius: 25px;
+    padding-top: 7px;
+
+}
+#user-block { 
+    width: 350px;
+    height: 400px;
+    background: white;
+    padding: 1px 15px;
+    border-radius: 25px;
+    
+}
+
+p { 
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
