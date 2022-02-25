@@ -5,7 +5,7 @@ var user = {
     gender: "male",
     city: "Dnipro",
     id: "937502",
-    phone: "+380965043013",
+    phone: "+380965039046",
     email: "yegorgrunsky@gmail.com",
 	render: function () {
 		var html = ""
@@ -15,8 +15,7 @@ var user = {
             continue
 			html += `<p>${i}: ${this[i]}</p>`  
 		}
-		data.innerHTML = html
-        return html
+        return data.innerHTML = html
 	}
 }
-user.render()
+user.render("user-block")
